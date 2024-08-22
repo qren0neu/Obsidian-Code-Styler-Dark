@@ -1364,13 +1364,5 @@ function calc(calcString: string): string {
 
 // Fetch Settings
 function getCurrentMode() {
-	const body = document.querySelector("body");
-	if (body !== null){
-		if (body.classList.contains("theme-light"))
-			return "light";
-		else if (body.classList.contains("theme-dark"))
-			return "dark";
-	}
-	console.warn("Warning: Couldn't get current theme");
-	return "light";
+	return "dark";
 }
