@@ -59,7 +59,7 @@ function styleThemeColours (themeColours: CodeStylerThemeColours): string {
 		`;
 	},`
 		body.code-styler.theme-light {
-			${getThemeColours(themeColours.light)}
+			${getThemeColours(themeColours.dark)}
 		}
 		body.code-styler.theme-dark {
 			${getThemeColours(themeColours.dark)}
